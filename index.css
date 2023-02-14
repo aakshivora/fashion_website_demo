@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************************ Header Section Styling Starts here **********************************/
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-image: url(https://jimdo-storage.freetls.fastly.net/image/260139542/80d4b41a-7b0f-48a9-b7f2-86b3851df1ef.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1920&height=1500&trim=0,66,0,19);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.header {
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links a,.fa{
+    font-size: 300px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    padding-right: 30px;
+}
+a.active{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.button{
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+.logo{
+    padding-top: 30px;
+    max-width: 100px;
+    height: 110px;
+}
+.main h2 {
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 35px;
+    border: 5px solid white;
+    padding: 150px;
+}
+.main .btn{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.services-flex {
+    display: flex;
+}
+
+.services-img {
+    flex: 0 0 50%;
+}
+
+.services-img-photo {
+    flex: 0 0 50%;
+    width: 100%;
+    display: block;
+}
+.services-content {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+}
+.services-content h1{
+    font-size: 56px;
+    font-weight: 300;
+    color: gray;
+    letter-spacing: 1px;
+}
+.services-content p{
+    font-size: 16px;
+    font-weight: 300;
+    color: gray;
+    letter-spacing: 1px;
+}
+.btn{
+    background-color: gray;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: white;
+}
+/************************************ Header Section Styling Starts here **********************************/
+/************************ Display1 Section starts *****************************************/
+.cars h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 30px;
+    color: gray;
+}
+.cars img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+.cars span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px ;
+}
+.cars .btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+}
+/************************ Display1 Section ends *****************************************/
+.pro-container{
+    display: flex;
+}
+.pro{
+    width: 33%;
+    min-width: 250px;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+}
+.pro img{
+    width: 100%;
+}
+.p1 h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 30px;
+    color: gray;
+}
+
+.about-flex {
+    display: flex;
+}
+.about-content {
+    padding: 0 10vw;
+    align-self: center;
+    flex: 0 0 50%;
+    /*This is the shorthand for flex-grow, flex-shrink and flex-basis */
+}
+
+.about-content-text {
+    margin: 2rem 0 2rem 0;
+}
+
+.about-img {
+    flex: 0 0 50%;
+}
+
+.about-img-photo {
+    flex: 0 0 50%;
+    width: 100%;
+    display: block;
+}
+
+.secondary-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #23303e;
+}
+
+.paragraph {
+    font-size: 1.5rem;
+}
